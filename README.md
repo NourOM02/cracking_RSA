@@ -3,7 +3,7 @@
 
 I created this repository to answer my curiosity after watching Vertitasium's video [How Quantum Computers Break The Internet... Starting Now](https://www.youtube.com/watch?v=-UrdExQW0cs). It contains tools to generate RSA keys, encrypt/decrypt messages and "break" keys. Obviously, breaking keys only works for small ones, otherwise we are truly in danger. For this purpose, I implemented Shor's algorithm which is not the best algorithm in the context of our laptops, but in terms of quantum computing, the encryption will break once a capable quantum computer is built. This repository is for educational purposes, if you want to understand how public and private keys are generated using RSA, how to encrypt/decrypt messages or how our keys may be broken one day 🫠
 
-If you are more interested about the topic you can refer to this [medium article]()
+If you are more interested about the topic you can refer to this [medium article](https://medium.com/@nour.oulad.moussa/can-quantum-computers-break-rsa-encryption-cf281204c21d)
 
 ## How to use
 First you need to clone the repository or download the source code. Refer to `requirements.txt` for dependencies.
