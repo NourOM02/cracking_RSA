@@ -76,3 +76,8 @@ Example :
 ```bash
 python main.py -a crack -f tmp.json
 ```
+
+## Feel Free to contribute
+In the open source community contributing is the fuel ⚡⚡ Feel free to give me your suggestion by opening issues or by pull requets !
+
+I searched everywhere how can I convert public and private keys from (e,n) and (d,n) respectively to the format we get when we use ssh-keygen in the terminal. If you happen to have an idea, I'll be glad to hear from you 😊
