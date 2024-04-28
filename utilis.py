@@ -235,11 +235,12 @@ def IO(file, input=None, output=None):
         The data read from the file.
     """
     if input != None:
-        # Create file if not exists
-        if not os.path.exists(file):
-            print(f"File {file} does not exist. Creating a new file...")
+        # Create a new file if not exists or delete content if genrate_keys is called
+        if not os.path.exists(file) or "public_key" in input.keys():
             with open(file, "w") as f:
                 f.write("{}")
+            print(f"Initialize {file} with empty object...")
+            
         # Read the file and update the data
         with open(file, "r") as f:
             data = json.load(f)
